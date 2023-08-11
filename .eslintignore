@@ -1,0 +1,8 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略 dist 目录
+dist/
+
+# 忽略所有的 .md 文件
+**/*.md

@@ -1,0 +1,31 @@
+.login-modal {
+    width: 672rpx;
+    height: 60rpx;
+    position: fixed;
+    left: 38rpx;
+    top: 25rpx;
+    border-radius: 10rpx;
+    background-color: blueviolet;
+    // background-color: rgba(255,255,255,.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+    .login-text {
+      color: #75686a;
+      font-size: 26rpx;
+      font-weight: bold;
+    }
+    .login-button {
+      background-color: black;
+      width: 200rpx;
+      height: 40rpx;
+      border-radius: 20rpx;
+       color: #fff;
+      font-size: 24rpx;
+      line-height: 40rpx;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
