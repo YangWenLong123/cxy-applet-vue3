@@ -1,9 +1,9 @@
 /*
  * @Author: along
- * @Description:1223
+ * @Description: 登录逻辑
  * @Date: 2023-08-10 14:25:26
  * @LastEditors: along
- * @LastEditTime: 2023-08-11 09:39:37
+ * @LastEditTime: 2024-04-29 09:36:49
  * @FilePath: /cxy-applet-vue3/src/utils/login/index.ts
  */
 import { appLoginStore } from '~/store'

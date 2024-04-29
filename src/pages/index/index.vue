@@ -1,26 +1,21 @@
 <!--
  * @Author: along
- * @Description:1
+ * @Description:首页
  * @Date: 2023-08-09 22:47:20
  * @LastEditors: along
- * @LastEditTime: 2023-08-11 10:24:59
+ * @LastEditTime: 2024-04-29 09:36:03
  * @FilePath: /cxy-applet-vue3/src/pages/index/index.vue
 -->
 <script lang="ts" setup>
-// import { reactive } from 'vue'
-import loginModal from '@/components/common/login-modal/index.vue'
-
 import tabbar from '@/components/common/tab-bar/index.vue'
 
-const state = reactive({
-  value: 0,
-})
+const state = reactive({})
 </script>
 
 <template>
   <div>
-    <loginModal ref="loginModal" />
-    <tabbar :value="state.value" />
+    <div>首页</div>
+    <tabbar :value="0" />
   </div>
 </template>
 

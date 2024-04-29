@@ -1,12 +1,12 @@
 <!--
  * @Author: along
- * @Description:1
+ * @Description: tabbar
  * @Date: 2023-08-09 23:08:19
  * @LastEditors: along
- * @LastEditTime: 2023-08-11 09:34:55
+ * @LastEditTime: 2024-04-29 09:44:10
  * @FilePath: /cxy-applet-vue3/src/components/common/tab-bar/index.vue
 -->
-<script setup>
+<script lang="ts" setup>
 import { onMounted } from 'vue'
 import router from '~/router'
 
@@ -16,8 +16,6 @@ const props = defineProps({
     default: 0,
   },
 })
-
-// const state = reactive({})
 
 onMounted(() => { })
 
@@ -44,13 +42,13 @@ function change(value) {
       <template #active-icon>
         <image
           :style="{ width: '64rpx', height: '64rpx' }"
-          src="@/static/images/shouye1.png"
+          src="@/static/images/home-active.png"
         />
       </template>
       <template #inactive-icon>
         <image
           :style="{ width: '64rpx', height: '64rpx' }"
-          src="@/static/images/shouye.png"
+          src="@/static/images/home.png"
         />
       </template>
     </u-tabbar-item>
@@ -58,13 +56,13 @@ function change(value) {
       <template #active-icon>
         <image
           :style="{ width: '64rpx', height: '64rpx' }"
-          src="@/static/images/gerenzhongxin1.png"
+          src="@/static/images/my-active.png"
         />
       </template>
       <template #inactive-icon>
         <image
           :style="{ width: '64rpx', height: '64rpx' }"
-          src="@/static/images/gerenzhongxin.png"
+          src="@/static/images/my.png"
         />
       </template>
     </u-tabbar-item>
@@ -72,5 +70,5 @@ function change(value) {
 </template>
 
 <style lang="scss">
-  // @import "./index.scss";
+  @import "./index.scss";
 </style>
